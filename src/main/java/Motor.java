@@ -3,7 +3,7 @@ package test;
 public class Motor {
 	public int numeroCilindros;
 	public String tipo;
-	public  int registro;
+	public static int registro;
 	
 	public void cambiarRegistro(int registro) {
 		this.registro=registro;
