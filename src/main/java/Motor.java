@@ -4,14 +4,14 @@ public class Motor {
 	public int numeroCilindros;
 	public String tipo;
 	public static int registro;
-	
+
 	public void cambiarRegistro(int registro) {
-		this.registro=registro;
+		this.registro = registro;
 	}
-	
+
 	public void asignarTipo(String tipo) {
-		if(tipo=="electrico" || tipo=="gasolina") {
-			this.tipo=tipo;
+		if (tipo == "electrico" || tipo == "gasolina") {
+			this.tipo = tipo;
 		}
 	}
 
