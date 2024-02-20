@@ -7,8 +7,6 @@ public class Motor {
 
 	public void cambiarRegistro(int registro) {
 		Motor.registro = registro;
-		Asiento.registro=registro;
-		Auto.registro=registro;
 	}
 
 	public void asignarTipo(String tipo) {
