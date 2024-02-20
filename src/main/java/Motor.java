@@ -5,8 +5,9 @@ public class Motor {
 	public String tipo;
 	public static int registro;
 
+	@SuppressWarnings("static-access")
 	public void cambiarRegistro(int registro) {
-		Motor.registro = registro;
+		this.registro = registro;
 	}
 
 	public void asignarTipo(String tipo) {
